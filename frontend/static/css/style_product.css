@@ -1,0 +1,102 @@
+hr {
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+}
+.add-specific,
+#add-platform,
+#add-color,
+#size,
+#platform p {
+    margin-top: 21px;
+}
+
+.delete-specific {
+    font-size: 21px;
+    margin-top: 33px;
+    line-height: 2em;
+}
+
+.pro-img:last-child {
+    margin-bottom: 10px;
+}
+
+.delete-img {
+    font-size: 16px;
+    position: relative;
+    bottom: 58px;
+    left: 200px;
+}
+
+#delete-platform {
+    left: 338px;
+    bottom: 72px;
+    position: relative;
+    right: 8px;
+}
+
+#color p {
+    margin-top: 22px;
+}
+
+#delete-color {
+    bottom: 132px;
+    position: relative;
+    left: 242px;
+}
+
+#delete-size {
+    position: relative;
+    bottom: 131px;
+    left: 239px;
+}
+
+#delete-recommended-use {
+    position: relative;
+    bottom: 74px;
+    left: 526px;
+}
+
+#delete-term-condition {
+    position: relative;
+    bottom: 86px;
+    left: 874px;
+}
+
+#delete-recommended-use,
+#delete-term-condition,
+#delete-size,
+#delete-color,
+#delete-platform,
+.delete-img,
+.delete-row,
+.delete-specific {
+    cursor: pointer;
+    color: black;
+    transition: all 0.5s ease-out
+}
+
+#delete-size:hover,
+#delete-color:hover,
+#delete-recommended-use:hover,
+#delete-term-condition:hover,
+#delete-platform:hover,
+.delete-row:hover,
+.delete-img:hover,
+.delete-specific:hover {
+    color: red;
+}
+
+.update button {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.update input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.update span {
+    position: absolute;
+    top: 0px;
+    left: 94%;
+}

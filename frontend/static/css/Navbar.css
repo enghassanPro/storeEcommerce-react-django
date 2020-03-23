@@ -1,0 +1,114 @@
+.navbar-inner {
+    background: #f8f9fa;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.13);
+}
+#agileinfo-nav_search {
+    outline: none;
+    border: none;
+    color: #000;
+    font-size: 14px;
+    background: transparent;
+    padding: 15px 10px;
+    width: 100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.agile_inner_drop_nav_info {
+    min-width: 673px;
+    transition: all 1.5s ease-in-out;
+}
+.agile_inner_drop_nav_info h5 {
+    color: #0879c9;
+    letter-spacing: 1px;
+}
+
+ul.multi-column-dropdown li {
+    list-style-type: none;
+    line-height: 2.5em;
+}
+
+ul.multi-column-dropdown li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #545454;
+    letter-spacing: 1px;
+}
+
+ul.multi-column-dropdown li a:hover {
+    color: #F45C5D;
+}
+
+@media(max-width: 1080px) {
+
+    #agileinfo-nav_search {
+        font-size: 13px;
+        padding: 11px 10px;
+    }
+    .agile_inner_drop_nav_info {
+        min-width: 564px;
+    }
+}
+@media(max-width: 1050px) {
+
+    .agile_inner_drop_nav_info {
+        min-width: 530px;
+    }
+}
+@media(max-width: 736px) {
+
+    .agile_inner_drop_nav_info {
+        min-width: 474px;
+    }
+}
+@media(max-width: 480px) {
+
+    .agile_inner_drop_nav_info {
+        min-width: 396px;
+    }
+}
+@media(max-width: 440px) {
+
+    .agile_inner_drop_nav_info {
+        min-width: 364px;
+    }
+}
+@media(max-width: 414px) {
+
+    .agile_inner_drop_nav_info {
+        min-width: 324px;
+    }
+}
+@media(max-width: 384px) {
+
+    .agile_inner_drop_nav_info {
+        min-width: 300px;
+    }
+    .agile_inner_drop_nav_info.p-4 h5 {
+        font-size: 18px;
+    }
+    ul.multi-column-dropdown li {
+        line-height: 2em;
+    }
+}
+@media(max-width: 375px) {
+
+    .agile_inner_drop_nav_info {
+        min-width: 290px;
+    }
+}
+@media(max-width: 320px) {
+
+    .agileits-navi_search {
+        width: 67%;
+    }
+    .agile_inner_drop_nav_info {
+        min-width: 242px;
+    }
+    .agile_inner_drop_nav_info.p-4 h5 {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+    ul.multi-column-dropdown li a {
+        font-size: 13px;
+    }
+}

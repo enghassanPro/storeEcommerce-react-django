@@ -1,0 +1,180 @@
+
+.logo_agile h1 a {
+    color: #F45C5D;
+    font-size: 38px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.logo_agile h1 a:hover {
+    text-decoration: none;
+}
+
+.logo_agile h1 a img {
+    position: absolute;
+    left: -40%;
+    top: -23px;
+}
+
+.logo_agile {
+    padding: 26px 0 21px;
+}
+
+.agileits_search input[type="search"] {
+    color: #191e21;
+    width: 78%;
+    letter-spacing: 1px;
+    padding: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
+    height: 45px;
+    border-radius: 0;
+}
+
+.agileits_search button {
+    border-radius: 0;
+    background: #F45C5D;
+    color: #fff;
+    width: 20%;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.22);
+    padding: 10px;
+}
+button.w3view-cart {
+    font-size: 20px;
+    color: #fff;
+    width: 50px;
+    height: 44px;
+    background: #000;
+    border: 1px solid rgba(27, 25, 25, 0.27);
+}
+
+/* @media(max-width: 1280px) {
+    .logo_agile {
+        padding: 26px 0 21px 42px;
+    }
+    .logo_agile h1 a img {
+        left: -34%;
+    }
+} */
+@media(max-width: 1080px) {
+    .logo_agile {
+        padding: 24px 0 21px 35px;
+    }
+    .logo_agile h1 a {
+        font-size: 36px;
+    }
+    .logo_agile h1 a img {
+        left: -34%;
+        width: 40%;
+        top: -14px;
+    }
+}
+@media(max-width: 1050px) {
+    .logo_agile h1 a img {
+        left: -31%;
+        width: 34%;
+        top: -11px;
+    }
+    .logo_agile {
+        padding: 20px 0 21px 46px;
+    }
+    .logo_agile h1 a {
+        font-size: 34px;
+    }
+}
+@media(max-width: 991px) {
+    .logo_agile {
+        padding: 20px 0 21px;
+    }
+    .logo_agile h1 a {
+        font-size: 31px;
+    }
+    .logo_agile h1 a img {
+        left: -37%;
+        width: 41%;
+        top: -11px;
+    }
+}
+@media(max-width: 800px) {
+    .header-right ul li {
+        font-size: 13px;
+    }
+    .logo_agile h1 a {
+        font-size: 28px;
+    }
+    .logo_agile h1 a img {
+        left: -29%;
+        width: 37%;
+        top: -11px;
+    }
+    .logo_agile {
+        padding: 20px 0 21px 18px;
+    }
+}
+@media(max-width: 768px) {
+    .logo_agile {
+        padding: 20px 0 21px 30px;
+    }
+    .logo_agile h1 a {
+        font-size: 26px;
+    }
+    .logo_agile h1 a img {
+        left: -29%;
+        width: 37%;
+        top: -11px;
+    }
+}
+@media(max-width: 736px) {
+    .logo_agile {
+        padding: 10px 0 0;
+    }
+    .logo_agile h1 a {
+        font-size: 34px;
+    }
+    .logo_agile h1 a img {
+        left: -36%;
+        width: 38%;
+        top: -8px;
+    }
+}
+
+@media(max-width: 440px) {
+    .agileits_search button {
+        width: 22%;
+    }
+}
+
+@media(max-width: 384px) {
+    .logo_agile h1 a {
+        font-size: 32px;
+    }
+    .logo_agile h1 a img {
+        left: -32%;
+        width: 35%;
+        top: -8px;
+    }
+    .agileits_search input[type="search"] {
+        font-size: 15px;
+    }
+    .agileits_search button {
+        padding: 10px 0;
+    }
+    button.w3view-cart {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+    }
+}
+@media(max-width: 320px) {
+
+    .agileits_search input[type="search"] {
+        font-size: 14px;
+        width: 74%;
+    }
+    .agileits_search button {
+        padding: 9px 0;
+        font-size: 14px;
+        width: 26%;
+    }
+}
